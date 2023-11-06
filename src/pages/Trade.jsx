@@ -5,12 +5,16 @@ import { MdAccountCircle } from 'react-icons/md';
 import { GiTrophyCup } from 'react-icons/gi';
 import { BsWalletFill } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
+import ApexCandleStick from '../components/ApexCandleStick';
 
 export default function Trade() {
   return (
     <div className=''>
     <header className=' text-center text-brand-violet my-2 text-xl '  > Trade </header>
 
+    <div className='  '>
+        <ApexCandleStick />
+    </div>
 
     {/* <BottomNavBar /> */}
     <div className="fixed bottom-0 w-full flex justify-center bg-gray-700 rounded-full p-2 my-2 " >

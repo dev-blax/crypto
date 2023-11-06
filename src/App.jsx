@@ -6,7 +6,7 @@ import Market from './pages/Market';
 import Account from './pages/Account';
 import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
-import EditProfile from './pages/EditProfile';
+import TradeHistory from './pages/TradeHistory';
 
 export default function App() {
   return (
@@ -20,7 +20,7 @@ export default function App() {
         <Route path='/account' element={<Account />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
-        <Route path='/editProfile' element={<EditProfile />} />
+        <Route path='/tradeHistory' element={<TradeHistory />} />
 
       </Routes>
     </>

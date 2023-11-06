@@ -14,7 +14,7 @@ export default function Register() {
         <div className=' flex flex-col items-center gap-5 py-8'>
           <img className=' h-16 w-16 ' src="images/dioz.svg" alt="dioz logo" />
           <div className=" flex flex-col text-center ">
-            <h2 className=' text-white font-semibold text-center text-xl ' > Welcome to Dioz </h2>
+            <h2 className=' text-white font-semibold text-center text-xl ' > Welcome to Crypto </h2>
             <Typography variant="small" textGradient className=" font-semibold text-brand-violet " >  Profits everyday </Typography>
           </div>
         </div>

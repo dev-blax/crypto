@@ -49,10 +49,10 @@ export default function Account() {
 
         <div className=" bg-blue-gray-700 bg-opacity-50 rounded-3xl p-4 h-full mx-2 text-[#7264ff]  ">
             <div className=" flex flex-col gap-3 ">
-                <div className=" flex items-center gap-4 ">
+                <Link to={'/tradeHistory'} className=" flex items-center gap-4 ">
                     <AiOutlineStock />
                     <span> Trading History </span>
-                </div>
+                </Link>
                 <div className=" flex items-center gap-4  ">
                     <AiFillStop />
                     <span> Trade Suggestions </span>
