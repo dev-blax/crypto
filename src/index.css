@@ -65,6 +65,10 @@ body{
   background-color: #171a25;
 }
 
+.bg-brand-black{
+  background-color: #10131a;
+}
+
 .text-brand-light-gray{
   color: #9fa1a3;
 }

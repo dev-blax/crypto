@@ -20,7 +20,7 @@ export default function Market() {
     </div>
     <div className=' flex flex-col gap-4 py-3 px-2'>
 
-       <div className=' flex items-center justify-between bg-blue-gray-900 p-3 rounded '>
+       <div className=' flex items-center justify-between bg-brand-gray p-3 rounded-2xl border border-gray-800 '>
           <div className=' flex items-center gap-2'>
             <div className=' bg-blue-600 p-2 rounded-full '>
               <SiEthereum className=' h-6 w-6' />
@@ -37,7 +37,7 @@ export default function Market() {
           </div>
        </div>
 
-       <div className=' flex items-center justify-between bg-blue-gray-900 p-3 rounded'>
+       <div className=' flex items-center justify-between bg-brand-gray p-3 rounded-2xl border border-gray-800'>
           <div className=' flex items-center gap-2'>
             <div className=' bg-yellow-600 p-2 rounded-full '>
               <SiBitcoinsv className=' h-6 w-6 text-black ' />
@@ -54,7 +54,7 @@ export default function Market() {
           </div>
        </div>
 
-       <div className=' flex items-center justify-between bg-blue-gray-900 p-3 rounded '>
+       <div className=' flex items-center justify-between bg-brand-gray p-3 rounded-2xl border border-gray-800 '>
           <div className=' flex items-center gap-2'>
             <div className=' bg-yellow-600 p-2 rounded-full '>
               <SiBinance className=' h-6 w-6 text-black ' />
@@ -71,7 +71,7 @@ export default function Market() {
           </div>
        </div>
 
-       <div className=' flex items-center justify-between bg-blue-gray-900 p-3 rounded '>
+       <div className=' flex items-center justify-between bg-brand-gray p-3 rounded-2xl border border-gray-800 '>
           <div className=' flex items-center gap-2'>
             <div className=' bg-blue-900 p-2 rounded-full '>
               <FaLitecoinSign className=' h-6 w-6 ' />
@@ -89,7 +89,7 @@ export default function Market() {
        </div>
 
 
-       <div className=' flex items-center justify-between bg-blue-gray-900 p-3 rounded '>
+       <div className=' flex items-center justify-between bg-brand-gray p-3 rounded-2xl border border-gray-800 '>
           <div className=' flex items-center gap-2'>
             <div className=' bg-yellow-900 p-2 rounded-full '>
               <SiDogecoin className=' h-6 w-6 ' />

@@ -6,6 +6,8 @@ import { Badge, Button, IconButton, Typography, Dialog, DialogHeader, DialogBody
     TimelineBody,
     } from "@material-tailwind/react";
 import { useState } from "react";
+import { SiEthereum, SiBitcoinsv, SiBinance, SiDogecoin } from 'react-icons/si'
+
 import { FaBell } from 'react-icons/fa';
 import { FaHome } from 'react-icons/fa';
 import { RiBarChart2Fill } from 'react-icons/ri';
@@ -13,7 +15,7 @@ import { MdAccountCircle } from 'react-icons/md';
 import { GiTrophyCup } from 'react-icons/gi';
 import { BsWalletFill } from 'react-icons/bs'
 import { Link } from 'react-router-dom';
-import { PriceChart } from "../components/PriceChart";
+//import { PriceChart } from "../components/PriceChart";
 
 export default function Home() {
 
@@ -156,9 +158,60 @@ export default function Home() {
             </div>
         </div>
 
-        <div className=" bg-[#191c27] h-screen my-5 w-screen mb-10 mx-2 ">
+        {/* <div className=" bg-[#191c27] h-screen my-5 w-screen mb-10 mx-2 ">
             <header className=" my-5 text-center " > Crypto Market Analysis </header>
             <PriceChart />
+        </div> */}
+
+        <div>
+            <div className=" p-3">
+                <header className=" text-center"> Crypto Market </header>
+                <div className=" flex flex-col items-center gap-2 mt-3">
+                    <div className=' flex items-center justify-between bg-brand-gray p-3 rounded-2xl border border-gray-800 w-full '>
+                        <div className=' flex items-center gap-2'>
+                            <div className=' bg-blue-600 p-2 rounded-full '>
+                            <SiEthereum className=' h-6 w-6' />
+                            </div>
+                            <div className=' flex flex-col'>
+                            <span> Ethereum </span>
+                            <span className=' text-xs text-gray-500 '> ETH </span>
+                            </div>
+                        </div>
+                        
+                        <div className=' flex flex-col items-end'>
+                            <span > $0.06629 </span>
+                            <span className=' text-xs text-red-400'> -0.53% </span>
+                        </div>
+                    </div>
+
+                    <div className=' flex items-center justify-between bg-brand-gray p-3 rounded-2xl border border-gray-800 w-full'>
+                        <div className=' flex items-center gap-2'>
+                            <div className=' bg-yellow-600 p-2 rounded-full '>
+                            <SiBitcoinsv className=' h-6 w-6 text-black ' />
+                            </div>
+                            <div className=' flex flex-col'>
+                            <span> Bitcoin </span>
+                            <span className=' text-xs text-gray-500 '> ETH </span>
+                            </div>
+                        </div>
+                        
+                        <div className=' flex flex-col items-end'>
+                            <span > $0.06629 </span>
+                            <span className=' text-xs text-green-400'> +0.58% </span>
+                        </div>
+                    </div>
+                    
+                    <Link to={'/market'}> <Button className=" bg-brand-violet rounded-full"> see more </Button> </Link>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <header> Refferral url </header>
+            
         </div>
 
         <div className="fixed z-20 bottom-0 w-full flex justify-center bg-gray-700 bg-opacity-50 rounded-full p-2 my-2 " >
